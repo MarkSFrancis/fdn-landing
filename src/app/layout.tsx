@@ -6,11 +6,10 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - FDN',
+    default: 'FDN - File delivery made fast, simple, and secure',
   },
-  description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+  description: 'We make image, video, and document delivery fast, simple, and secure.',
 }
 
 const inter = Inter({

@@ -14,28 +14,28 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Your files, just faster',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      'Store your files at your existing data center and use us as a global cache. You keep control of all your data, and get world-class performance',
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: '300+ data centers',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      'Your files are automatically cached at locations near your users in 300+ data centers around the world, so your users will always get the best performance available',
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Image adjustments',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      'Resize, convert, and adjust images however you see fit, including advanced options like brightening, sharpening, and even bluring images. All of this is also supported for animated formats (like GIF)',
+    image: screenshotReporting,
   },
   {
-    title: 'Reporting',
+    title: 'Video streaming',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Your video is automatically transcoded and streamed at the right resolution for the end user, matching their bandwidth to ensure a best-possible viewing experience',
+    image: screenshotVatReturns,
   },
 ]
 
@@ -76,11 +76,13 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Everything you need to deliver your files.
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+          <p className="mt-6 text-balance text-lg tracking-tight text-blue-100">
+            We&apos;ll take care of optimising, caching, and delivering your
+            assets for you. You don&apos;t need to worry about upload size,
+            compression formats, or even data center regions. We&apos;ll take
+            care of it all for you.
           </p>
         </div>
         <TabGroup
